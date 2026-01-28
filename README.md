@@ -7,7 +7,7 @@
  **2. Resource Modeling:**
  - Why did we use plural nouns (e.g., `/dishes`) for our routes?
  - Answer: because it gives consistency
-  **3. Status Codes:**
+ **3. Status Codes:**
   - When do we use `201 Created` vs `200 OK`?
   - Why is it important to return `404` instead of just an empty array or a generic error?
  - Answer: 201 is created if there was a new thing made in POST while 200 ok is used for Get, PUT, or DELETE requests
